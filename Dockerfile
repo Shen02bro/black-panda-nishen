@@ -1,8 +1,8 @@
-FROM NishNishendanidu/redblacky:fullcontrol
+FROM nishnishendanidu/redblacky:fullcontrol
 
-RUN git clone https://github.com/NishNishendaniduRedBlacky/root/RedblackyWhatsappBot
+RUN git clone https://github.com/nishnishendaniduredblacky/root/redblackywhatsappbot
 
-WORKDIR /root/RedBlackyWhatsappBot/
+WORKDIR /root/redBlackywhatsappBot/
 
 ENV TZ=Asia/Colombo
 
