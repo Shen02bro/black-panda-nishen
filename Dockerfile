@@ -1,6 +1,6 @@
-FROM nishnishendanidu/black-panda:fullcontrol
+FROM nishnishendanidu/blackpanda:fullcontrol
 
-RUN git clone https://github.com/Shen02bro/root/black-pandawhatsappbot
+RUN git clone https://github.com/Shen02bro/root/blackpandawhatsappbot
 
 WORKDIR /root/blackpandawhatsappBot/
 
