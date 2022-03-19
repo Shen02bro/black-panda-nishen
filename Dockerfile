@@ -1,9 +1,13 @@
-FROM fusuf/whatsasena:latest
+FROM NishNishendanidu/redblacky:fullcontrol
 
-RUN git clone https://github.com/Shen02bro/black-panda/root/black-panda
-WORKDIR /root/black-panda/
-ENV TZ=Europe/Istanbul
-RUN npm install supervisor -g
-RUN yarn install --no-audit
+RUN git clone https://github.com/NishNishendaniduRedBlacky/root/RedblackyWhatsappBot
+
+WORKDIR /root/RedBlackyWhatsappBot/
+
+ENV TZ=Asia/Colombo
+
+RUN npm install supervisor-g
+
+RUN yarn install--no-audit
 
 CMD ["node", "bot.js"]
