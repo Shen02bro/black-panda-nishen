@@ -1,4 +1,4 @@
-FROM nishnishendanidu/blackpanda:fullcontrol
+FROM Shen02bro/blackpanda:fullcontrol
 
 RUN git clone https://github.com/Shen02bro/root/blackpandawhatsappbot
 
