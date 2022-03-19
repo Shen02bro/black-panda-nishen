@@ -1,13 +1,13 @@
-FROM Shen02bro/blackpanda:fullcontrol
+FROM Shen02bro/blackpanda:lovegift
 
-RUN git clone https://github.com/Shen02bro/root/blackpandawhatsappbot
+RUN git clone https://github.com/ravindu01manoj/PandaBlackWhatsappBot /root/PandaBlackWhatsappBot
 
-WORKDIR /root/blackpandawhatsappBot/
+WORKDIR /root/pandablackWhatsappBot/
 
 ENV TZ=Asia/Colombo
 
-RUN npm install supervisor-g
+RUN npm install supervisor -g
 
-RUN yarn install--no-audit
+RUN yarn install --no-audit
 
 CMD ["node", "bot.js"]
