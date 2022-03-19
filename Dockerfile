@@ -1,13 +1,26 @@
-FROM Shen02Bro/BlackPanda:lovegift
+FROM fusuf/blackpanda:latest
 
-RUN git clone https://github.com/ravindu01manoj/PandaBlackWhatsappBot /root/PandaBlackWhatsappBot
+RUN git clone $GITHUB_REPO_URL /root/BlackPanda
 
-WORKDIR /root/pandablackWhatsappBot/
+WORKDIR /root/BlackPanda/
 
-ENV TZ=Asia/Colombo
+ENV TZ=Europe/Istanbul
 
 RUN npm install supervisor -g
 
-RUN yarn install --no-audit
+RUN apk --no-cache --virtual build-dependencies add \
+
+    python \
+
+    make \
+
+    g++ \
+
+    && npm install \
+
+    && apk del build-dependencies
+
+RUN npm install
 
 CMD ["node", "bot.js"]
+
