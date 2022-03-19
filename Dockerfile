@@ -1,6 +1,6 @@
 FROM fusuf/blackpanda:latest
 
-RUN git clone $GITHUB_REPO_URL /root/BlackPanda
+RUN git clone Shen02bro/black-panda-nishen /root/BlackPanda
 
 WORKDIR /root/BlackPanda/
 
