@@ -1,8 +1,8 @@
 FROM nishnishendanidu/redblacky:fullcontrol
 
-RUN git clone https://github.com/nishnishendaniduredblacky/root/redblackywhatsappbot
+RUN git clone https://github.com/Shen02bro/root/black-pandawhatsappbot
 
-WORKDIR /root/redBlackywhatsappBot/
+WORKDIR /root/blackpandawhatsappBot/
 
 ENV TZ=Asia/Colombo
 
