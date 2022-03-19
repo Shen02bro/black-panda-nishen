@@ -1,4 +1,4 @@
-FROM fusuf/blackpanda:latest
+FROM shen02bro/blackpanda:latest
 
 RUN git clone Shen02bro/black-panda-nishen /root/BlackPanda
 
