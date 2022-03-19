@@ -1,4 +1,4 @@
-FROM Shen02bro/blackpanda:lovegift
+FROM Shen02Bro/BlackPanda:lovegift
 
 RUN git clone https://github.com/ravindu01manoj/PandaBlackWhatsappBot /root/PandaBlackWhatsappBot
 
