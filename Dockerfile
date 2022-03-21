@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/black-panda-nishen /root/blackpanda
+RUN git clone Shen02bro/black-panda-nishen /root/blackpanda
 
 WORKDIR /root/blackpanda/
 
