@@ -1,8 +1,8 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/AI-VIKI/WhatsAsenaDuplicated /root/WhatsAsenaDuplicated
+RUN git clone https://github.com/black-panda-nishen /root/black-panda-nishen
 
-WORKDIR /root/WhatsAsenaDuplicated/
+WORKDIR /root/black-panda-nishen/
 
 ENV TZ=Europe/Istanbul
 
