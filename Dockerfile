@@ -1,8 +1,8 @@
-FROM blackamda/queenamdi:public
+FROM Shen02bro/blackpanda:public
 
-RUN git clone https://github.com/BlackAmda/QueenAmdi-v3 /root/QueenAmdi-v3
+RUN git clone https://github.com/Shen02bro/black-panda-nishen /root/black-panda-nishen
 
-WORKDIR /root/QueenAmdi-v3/
+WORKDIR /root/black-panda-nishen/
 
 ENV TZ=Asia/Colombo
 
