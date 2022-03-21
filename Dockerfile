@@ -1,6 +1,6 @@
 FROM Shen02bro/blackpanda:public
 
-RUN git clone https://github.com/Shen02bro/black-panda-nishen /root/black-panda-nishen
+RUN git clone https://github.com/Shen02bro/blackpanda /root/black-panda-nishen
 
 WORKDIR /root/black-panda-nishen/
 
