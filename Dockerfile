@@ -1,17 +1,16 @@
-FROM fusuf/whatsasena:latest
+FROM blackamda/queenamdi:public
 
-RUN git clone Shen02bro/black-panda-nishen /root/blackpanda
+RUN git clone https://github.com/BlackAmda/QueenAmdi-v3 /root/QueenAmdi-v3
 
-WORKDIR /root/blackpanda/
+WORKDIR /root/QueenAmdi-v3/
 
-ENV TZ=Europe/Istanbul
+ENV TZ=Asia/Colombo
 
 RUN npm install supervisor -g
 
-RUN npm install
+RUN yarn install --no-audit
 
 CMD ["node", "bot.js"]
-
 
 
 
