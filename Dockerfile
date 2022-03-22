@@ -1,8 +1,8 @@
 FROM Shen02Bro/BlackPanda:public
 
-RUN git clone https://github.com/Shen02bro/Black-Panda-Nishen /root/Black-Panda-Nishen
+RUN git clone https://github.com/Shen02bro/BlackPanda v3 /root/BlackPanda v3
 
-WORKDIR /root/Black-Panda-Nishen/
+WORKDIR /root/BlackPanda v3/
 
 ENV TZ=Asia/Colombo
 
